@@ -1,0 +1,10 @@
+
+        <image src="/img/2.png" mode="widthFix"></image>
+        <text class="title">健身后，我们该如何控制饮食？健身后，我们该如何控制饮食？健身后，我们该如何控制饮食？</text>
+        <text class="intro">最近在做小程序时，需要实现一个时间日期的选择器，但是小程序的picker组件只支持五种选择器，分别是普通选择器、多列选择器、时间选择器、日期选择器、省市区选择器。好像没有我需要的时间日期的选择器呢，这该怎么办？</text>
+        <view class="more">
+            <time class="time">2021-9-2 10:20:50</time>
+            <view class="m">
+            <image src="/img/arrow.png"></image>
+            </view>
+        </view>

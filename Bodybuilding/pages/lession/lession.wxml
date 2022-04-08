@@ -1,0 +1,55 @@
+<!--健身常识 -->
+<view class="tab">
+  <text>健身</text>
+  <text class="fix">SPA</text>
+</view>
+<view class="nav">
+  <text class="b">7月</text>
+  <text class="fix">周一7.28</text>
+  <text>周二</text>
+  <text>周三</text>
+  <text>周四</text>
+  <text>周五</text>
+  <text>周六</text>
+  <text>周日</text>
+</view>
+<view class="nlist">
+  <view class="news">
+    <navigator>
+      <image src="/img/1.png"></image>
+      <view>
+        <text class="t">健身后，我们如何正确搭配饮食</text>
+        <text>1.健身后不可以吃的东西有1.健身后不可以吃的东西有1.健身后不可以吃的东西有1健身后不可以吃的东西有1健身后不可以吃的东西有1.健身后...</text>
+        <time>2021-6-23 09:05:20</time>
+      </view>
+      <text class="show">查看</text>
+    </navigator>
+    <navigator>
+      <image src="/img/1.png"></image>
+      <view>
+        <text class="t">健身后，我们如何正确搭配饮食</text>
+        <text>1.健身后不可以吃的东西有1.健身后不可以吃的东西有1.健身后不可以吃的东西有1健身后不可以吃的东西有1健身后不可以吃的东西有1.健身后...</text>
+        <time>2021-6-23 09:05:20</time>
+      </view>
+      <text class="show">查看</text>
+    </navigator>
+    <navigator>
+      <image src="/img/1.png"></image>
+      <view>
+        <text class="t">健身后，我们如何正确搭配饮食</text>
+        <text>1.健身后不可以吃的东西有1.健身后不可以吃的东西有1.健身后不可以吃的东西有1健身后不可以吃的东西有1健身后不可以吃的东西有1.健身后...</text>
+        <time>2021-6-23 09:05:20</time>
+      </view>
+      <text class="show">查看</text>
+    </navigator>
+    <navigator>
+      <image src="/img/1.png"></image>
+      <view>
+        <text class="t">健身后，我们如何正确搭配饮食</text>
+        <text>1.健身后不可以吃的东西有1.健身后不可以吃的东西有1.健身后不可以吃的东西有1健身后不可以吃的东西有1健身后不可以吃的东西有1.健身后...</text>
+        <time>2021-6-23 09:05:20</time>
+      </view>
+      <text class="show">查看</text>
+    </navigator>
+  </view>
+</view>

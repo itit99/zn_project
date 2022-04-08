@@ -1,0 +1,46 @@
+<view class="head">
+  <image src="/img/logo.png" class="logo"></image>
+  <text class="h-list ">首页</text>
+  <text class="h-list shoye">片库</text>
+  <text class="h-list">榜单</text>
+  <image src="/img/ss.png" class="ss"></image>
+</view>
+<swiper class="swiper" autoplay="true" indicator-dots="true" indicator-color="#fff" indicator-active-color="#0654AB">
+  <swiper-item wx:for="{{banner}}">
+    <image src="{{item.img}}" mode="heightFix"></image>
+  </swiper-item>
+</swiper>
+<view class="body">
+    <view class="list">
+        <navigator class="h">全部</navigator>
+        <navigator>战争</navigator>
+        <navigator>恐怖</navigator>
+        <navigator>传经</navigator>
+        <navigator>交通</navigator>
+    </view>
+    <view class="list">
+        <navigator>全部</navigator>
+        <navigator class="h">香港</navigator>
+        <navigator>美国</navigator>
+        <navigator>英国</navigator>
+        <navigator>中国</navigator>
+    </view>
+    <view class="list">
+        <navigator>全部</navigator>
+        <navigator>2015</navigator>
+        <navigator class="h">2018</navigator>
+        <navigator>2019</navigator>
+        <navigator>2021</navigator>
+    </view>
+    <view class="list">
+        <navigator>全部</navigator>
+        <navigator>人气</navigator>
+        <navigator class="h">好评</navigator>
+    </view>
+</view>
+<view class="b-bom">
+    <view class="yp" wx:for="{{video}}">
+        <image src="{{item.coveurl}}"></image>
+      <text>{{item.title}}</text>
+    </view>
+  </view>

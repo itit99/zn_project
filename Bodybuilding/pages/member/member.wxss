@@ -1,0 +1,77 @@
+page{
+  background: #e7e7e7;
+}
+.head{
+  position: relative;
+}
+.head image{
+  height: 300rpx;
+}
+.head .user{
+  left: 50%;
+  top: 5%;
+  position: absolute;
+  margin-left: -100rpx;
+  text-align: center;
+}
+.head .user image{
+  width: 180rpx;
+  height: 180rpx;
+  margin:0 auto;
+}
+.head .user text{
+  display: block;
+  color: #fff;
+  font-size: 80%;
+}
+.my{
+  margin: 12px;
+  border-radius: 5px;
+  background: #fff;
+}
+.my .form{
+  display: flex;
+  padding: 14px 12px;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.my .form image{
+  width: 40rpx;
+  height: 48rpx;
+}
+.my .form text{
+  margin-left: 10px;
+  font-size: 90%;
+  line-height: 150%;
+}
+.my .form text.t{
+  flex: 1;
+  text-align: right;
+}
+.my .form .blue{
+  font-weight: 700;
+  color: #00e0e9;
+}
+.my .end{
+  border: 0;
+}
+.my .form view.m{
+  flex: 2;
+  text-align: right;
+}
+.my .form view.m image{
+  width: 16rpx;
+  height: 28rpx;
+}
+.my .form view.m text{
+  width: 40rpx;
+  height: 40rpx;
+  color: white;
+  font-size: 80%;
+  line-height: 40rpx;
+  text-align: center;
+  display: inline-block;
+  border-radius: 50%;
+  background: #f00;
+  margin: 0 12px;
+}

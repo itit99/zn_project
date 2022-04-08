@@ -1,0 +1,34 @@
+.body{
+    padding:0 10px;
+    background: white;
+}
+.body .list{
+    padding:0 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid gray ;
+}
+
+.body .list .h{
+    color: #5cf52d;
+}
+ .b-bom{
+     background: white;
+    padding: 10px 0 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+ .b-bom .yp{
+   width: 30%;
+  }
+ .b-bom .yp image{
+    width: 240rpx;
+    height: 280rpx;
+  }
+ .b-bom .yp text{
+    display: block;
+    color: black;
+    text-align: center;
+  }

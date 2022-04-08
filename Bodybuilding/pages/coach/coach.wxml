@@ -1,0 +1,39 @@
+<view class="tlist">
+    <view class="tech">
+      <image src="/img/a.png"></image>
+      <view class="intro">
+        <text class="t">张教练</text>
+        <text>国家一级健身教练</text>
+        <text>擅长:塑型训练</text>
+      </view>
+      <view>
+        <navigator url="pages/view/view">查看</navigator>
+        <navigator url="pages/view/view" class="x">预约</navigator>
+      </view>
+      
+    </view>
+    <view class="tech">
+      <image src="/img/b.png"></image>
+      <view class="intro">
+        <text class="t">张教练</text>
+        <text>国家一级健身教练</text>
+        <text>擅长:塑型训练</text>
+      </view>
+      <view>
+        <navigator url="pages/view/view">查看</navigator>
+        <navigator url="pages/view/view" class="x">预约</navigator>
+      </view>
+    </view>
+    <view class="tech">
+      <image src="/img/c.png"></image>
+      <view class="intro">
+        <text class="t">张教练</text>
+        <text>国家一级健身教练</text>
+        <text>擅长:塑型训练</text>
+      </view>
+      <view>
+        <navigator url="pages/view/view">查看</navigator>
+        <navigator url="pages/view/view" class="x">预约</navigator>
+      </view>
+    </view>
+  </view>

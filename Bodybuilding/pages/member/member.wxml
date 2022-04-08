@@ -1,0 +1,32 @@
+<view class="head">
+  <image src="/img/head.png"></image>
+  <view class="user">
+    <navigator>
+      <image src="/img/a.png"></image>
+      <text>TopSourcce</text>
+      <text>高级VIP</text>
+    </navigator>
+  </view>
+</view>
+<view class="my">
+  <navigator url="/pages/payment/payment">
+    <view class="form">
+      <image src="/img/pay.png"></image>
+      <text>我的订单</text>
+      <view class="m">
+        <text>1</text>
+        <image src="/img/arrow.png"></image>
+      </view>    
+    </view>
+  </navigator>
+  <view class="form">
+    <image  src="/img/total.png"></image>
+    <text>课程次数</text>
+    <text class="t"> 剩余：<text class="blue">1</text>次</text>
+  </view>
+  <view class="form end">
+    <image  src="/img/spax.png"></image>
+    <text>SPA次数</text>
+    <text class="t"> 剩余：<text class="blue">1</text>次</text>
+  </view>
+</view>

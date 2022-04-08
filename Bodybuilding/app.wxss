@@ -1,0 +1,84 @@
+.navtab{
+  height: 120rpx;
+  padding: 0 20rpx;
+  background: #fff;
+  border-bottom: 1rpx solid #ccc;
+}
+.navtab .pos{
+  display: flex;
+  align-items: center;
+  height: 120rpx;
+}
+.title text{
+  color: #666;
+  padding-left: 20rpx;
+  border-left:8rpx solid #00a0e9 ;
+}
+.navtab .pos .m text
+{
+  flex: 1;
+  margin: 0 12px
+}
+.navtab .pos .m{
+  flex: 2; 
+  color: #999;
+  text-align: right;
+}
+.navtab .pos .m image
+{
+  width:16rpx;
+  height: 28rpx;
+  border-left: 8rpx solid #2cd450
+}
+.shadow{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 98%;
+  opacity: .5;
+  background: #000;
+}
+.nlist .news navigator{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+.nlist .news image{
+  width: 180rpx;
+  height: 180rpx;
+}
+.nlist .news navigator view text.t{
+  color: #333;
+  font-size: 80%;
+  line-height: 200%;
+}
+.nlist .news view{
+  flex: 1;
+  margin-left: 12px;
+}
+.nlist .news view text{
+  color: #999;
+  font-size: 70%;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nlist .news view time{
+  color: 70%;
+  font-size: 70%;
+}
+.nlist .show{
+  display: 1;
+  color: #00a0e9;
+  font-size:80% ;
+  border-radius:5px ;
+  border: 1px solid #00a0e9;
+  padding:5rpx ;
+  /* margin-left: 5px; */
+}

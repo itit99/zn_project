@@ -1,0 +1,190 @@
+<!-- 轮显广告 -->
+<swiper autoplay="true" indicator-dots="true" indicator-active-color="#00a0e9" indicator-color="rgba(255,255,255,.5)">
+  <swiper-item>
+    <navigator url="/pages/news/news">
+      <image src="/img/banner.png" mode="widthFix"></image>
+    </navigator>
+  </swiper-item>
+  <swiper-item>
+    <navigator url="/pages/news/news">
+      <image src="/img/banner.png" mode="widthFix"></image>
+    </navigator>
+  </swiper-item>
+  <swiper-item>
+    <navigator url="/pages/news/news">
+      <image src="/img/banner.png" mode="widthFix"></image>
+    </navigator>
+  </swiper-item>
+</swiper>
+
+<!-- 课程预约 -->
+<view class="dtime">
+  <view class="navtab">
+    <view class="pos">
+      <view class="title">
+        <text>课程预约</text>
+      </view>
+    </view>
+  </view>
+  <view class="dlist">
+    <navigator class="frame" url="/pages/coach/coach">
+      <image src="/img/health.png" mode="widthFix"></image>
+      <text>健身预约</text>
+      <view class="shadow"></view>
+    </navigator>
+    <navigator class="frame">
+      <image src="/img/spa.png" mode="widthFix"></image>
+      <text>SPA预约</text>
+      <view class="shadow"></view>
+    </navigator>
+  </view>
+</view>
+
+<!-- 关于我们 -->
+<view class="about">
+  <view class="navtab">
+    <navigator url="/pages/map/map">
+      <view class="pos">
+        <view class="title">
+          <text>关于我们</text>
+        </view>
+        <view class="m">
+          <text>我们在哪</text>
+          <image src="/img/arrow.png"></image>
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="frame">
+    <view class="{{ispop?'context':'h'}}">
+      <text>健身会所成立于2018年，占地面积达1500平米，投资规模超过百万。</text>
+      <text>我们倡导绿色环保的时尚健身运动。作为健身行业中的一员，我们时刻以全民健身的旗手标准来要求自己，致力</text>
+      <text>我们倡导绿色环保的时尚健身运动。作为健身行业中的一员，我们时刻以全民健身的旗手标准来要求自己，致力</text>
+      <text>我们倡导绿色环保的时尚健身运动。作为健身行业中的一员，我们时刻以全民健身的旗手标准来要求自己，致力</text>
+      <text>我们倡导绿色环保的时尚健身运动。作为健身行业中的一员，我们时刻以全民健身的旗手标准来要求自己，致力</text>
+      <text>我们倡导绿色环保的时尚健身运动。作为健身行业中的一员，我们时刻以全民健身的旗手标准来要求自己，致力</text>
+      <text>我们倡导绿色环保的时尚健身运动。作为健身行业中的一员，我们时刻以全民健身的旗手标准来要求自己，致力</text>
+      <text>我们倡导绿色环保的时尚健身运动。作为健身行业中的一员，我们时刻以全民健身的旗手标准来要求自己，致力</text>
+    </view>
+    <image src="/img/down.png" bindtap="{{ispop?'popdown':'popup'}}"></image>
+  </view>
+</view>
+<!-- 我们的环境 -->
+<view class="corp">
+  <view class="navtab">
+    <view class="pos">
+      <view class="title">
+        <text>我们的环境</text>
+      </view>
+    </view>
+  </view>
+  <view class="dlist">
+    <navigator class="frame">
+      <image src="/img/1.png" mode="widthFix"></image>
+      <text>健身区域</text>
+    </navigator>
+    <navigator class="frame">
+      <image src="/img/2.png" mode="widthFix"></image>
+      <text>SPA区域</text>
+    </navigator>
+  </view>
+  <view class="dlist">
+    <navigator class="frame">
+      <image src="/img/3.png" mode="widthFix"></image>
+      <text>茶歇预约</text>
+    </navigator>
+    <navigator class="frame">
+      <image src="/img/4.png" mode="widthFix"></image>
+      <text>展示预约</text>
+    </navigator>
+  </view>
+</view>
+
+<!-- 我们的老师 -->
+<view class="teacher">
+  <view class="navtab">
+    <navigator url="/pages/coach/coach">
+      <view class="pos">
+        <view class="title">
+          <text>我们的老师</text>
+        </view>
+        <view class="m">
+          <text>查看更多</text>
+          <image src="/img/arrow.png"></image>
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="tlist">
+    <view class="tech">
+      <image src="/img/a.png"></image>
+      <view class="intro">
+        <text class="t">张教练</text>
+        <text>国家一级健身教练</text>
+        <text>擅长:塑型训练</text>
+      </view>
+      <navigator url="pages/view/view">查看</navigator>
+    </view>
+    <view class="tech">
+      <image src="/img/b.png"></image>
+      <view class="intro">
+        <text class="t">张教练</text>
+        <text>国家一级健身教练</text>
+        <text>擅长:塑型训练</text>
+      </view>
+      <navigator url="pages/view/view">查看</navigator>
+    </view>
+    <view class="tech">
+      <image src="/img/c.png"></image>
+      <view class="intro">
+        <text class="t">张教练</text>
+        <text>国家一级健身教练</text>
+        <text>擅长:塑型训练</text>
+      </view>
+      <navigator url="pages/view/view">查看</navigator>
+    </view>
+  </view>
+</view>
+
+<!--健身常识 -->
+<view class="nlist">
+  <view class="navtab">
+    <navigator url="/pages/map/map">
+      <view class="pos">
+        <view class="title">
+          <text>健康常识</text>
+        </view>
+        <view class="m">
+          <text>查看更多</text>
+          <image src="/img/arrow.png"></image>
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="news">
+    <navigator url="/pages/deatil/deatil">
+      <image src="/img/1.png"></image>
+      <view>
+        <text class="t">健身后，我们如何正确搭配饮食</text>
+        <text>1.健身后不可以吃的东西有1.健身后不可以吃的东西有1.健身后不可以吃的东西有1健身后不可以吃的东西有1健身后不可以吃的东西有1.健身后...</text>
+        <time>2021-6-23 09:05:20</time>
+      </view>
+    </navigator>
+    <navigator url="/pages/deatil/deatil">
+      <image src="/img/1.png"></image>
+      <view>
+        <text class="t">健身后，我们如何正确搭配饮食</text>
+        <text>1.健身后不可以吃的东西有1.健身后不可以吃的东西有1.健身后不可以吃的东西有1健身后不可以吃的东西有1健身后不可以吃的东西有1.健身后...</text>
+        <time>2021-6-23 09:05:20</time>
+      </view>
+    </navigator>
+    <navigator url="/pages/deatil/deatil">
+      <image src="/img/1.png"></image>
+      <view>
+        <text class="t">健身后，我们如何正确搭配饮食</text>
+        <text>1.健身后不可以吃的东西有1.健身后不可以吃的东西有1.健身后不可以吃的东西有1健身后不可以吃的东西有1健身后不可以吃的东西有1.健身后...</text>
+        <time>2021-6-23 09:05:20</time>
+      </view>
+    </navigator>
+  </view>
+</view>

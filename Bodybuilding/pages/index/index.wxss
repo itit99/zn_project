@@ -1,0 +1,142 @@
+swiper
+{
+  height: 360rpx
+}
+swiper image
+{
+  width:100%
+}
+.dtime,
+.about,
+.corp
+{
+  background: #e7e7e7;
+  padding-bottom:12px
+}
+.dtime .dlist,.corp .dlist{
+  padding: 16px 8px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+}
+.dtime .dlist .frame,
+.corp .dlist .frame{
+  flex: 1;
+  margin: 0 8px;
+  position: relative;
+  border-radius: 6px;
+}
+.dlist image{
+  width: 136px;
+}
+.dtime .dlist .frame image,
+.corp .dlist image{
+  float: left;
+  width: 100%;
+}
+.dtime .frame text{
+  left: 50%;
+  top: 40%;
+  position: absolute;
+  color: white;
+  margin-left: -22%;
+  z-index: 12;
+}
+
+.about .frame{
+  color: #666;
+  padding: 10px;
+  text-indent: 20px;
+  background: #fff;
+  font: 400 90%/180% '';
+}
+.about .h{
+  height: 300rpx;
+  overflow: hidden;
+}
+.about .frame image{
+  display: block;
+  width: 48rpx;
+  height: 48rpx;
+  margin: 10rpx auto;
+  border-radius: 50%;
+  /* justify-content: center; */
+}
+.corp .dlist text{
+  display: block;
+  text-align: center;
+  font: 400 100%/200% '';
+}
+.tlist{
+  padding: 4px 12px;
+  background: #e7e7e7;
+}
+.tlist .tech{
+  padding: 10px 16px;
+  display: flex;
+  background: #fff;
+  border-radius: 5px;
+  align-items: center;
+  margin: 10px auto;
+  box-shadow: 2px 2px 6px rgba(100, 100, 100, .6);
+}
+.tlist .tech image{
+  width: 130rpx;
+  height: 130rpx;
+}
+.tlist .tech .intro{
+  flex: 2;
+  margin-left: 16px;
+}
+.tlist .tech .intro text.t{
+  color: #333;
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 180%;
+}
+.tlist .tech .intro text{
+  color: #999;
+  display: block;
+  font: 400  80%/150% '';
+}
+.tlist .tech navigator{
+  color: #00a0e9;
+  padding: 4px 12px;
+  border-radius: 5px;
+  font-size:80%;
+  border: 1px solid #00a0e9;
+}
+.nlist .news navigator{
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background: #fff;
+  margin: 8px 0;
+}
+.nlist .news image{
+  width: 180rpx;
+  height: 180rpx;
+}
+.nlist .news navigator view text.t{
+  color: #333;
+  font-size: 80%;
+  line-height: 200%;
+}
+.nlist .news view{
+  flex: 1;
+  margin-left: 12px;
+}
+.nlist .news view text{
+  color: #999;
+  font-size: 70%;
+  display: -webkit-box;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.nlist .news view time{
+  color: 70%;
+  font-size: 70%;
+}
