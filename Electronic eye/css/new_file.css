@@ -1,0 +1,294 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+}
+ul,li,a,p{
+	color: black;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: inherit;
+}
+header{
+	height: 10px;
+	background: linear-gradient(90deg,#57b9e6,#7271b5);
+}
+#head{
+	height: 30px;
+	background: #fbfafa;
+}
+.head{
+	width: 1200px;
+	height: 30px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#nav{
+	width:1200px;
+	height: 100px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#nav h1{
+	width: 89px;
+	height: 53px;
+	font-size: 0;
+	background: url(../img/5.png);
+}
+#nav-ul{
+	widows: 700px;
+	height: 30px;
+	display: flex;
+}
+#nav-ul > li{
+	position: relative;
+	width: 100px;
+	height: 30px;
+	font: 400 16px/0 "微软雅黑";
+}
+#nav-ul li a{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+#nva-ul-li a{
+	color: #7780b9;
+}
+.li3-erji{
+	position: absolute;
+	top: 30px;
+	width: 100px;
+	height: 200px;
+	display: none;
+}
+.li3-erji li{
+	height: 30px;
+}
+#nav-ul li:hover .li3-erji{
+	display: block;
+}
+.li3-erji li:hover{
+	background: greenyellow;
+}
+#beijing{
+	width: 1413px;
+	height: 511px;
+	background: url(../img/6.png);
+	margin: 0 auto;
+}
+#article{
+	height:610px;
+}
+#article h2{
+	text-align: center;
+	font:600 22px/24px "微软雅黑";
+}
+#article p{
+	color: gray;
+	text-align: center;
+}
+.a1-zhong{
+	width: 1413px;
+	height: 469px;
+	margin: 20px auto 0;
+	display: flex;
+}
+.a1-zhong div{
+	width: 474px;
+	text-align: center;
+	line-height: 699px;
+}
+.z-1,.z-3{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+.z-2{
+	border: 1px solid gray;
+}
+#article2{
+	height: 620px;
+	padding-top:40px ;
+	background: #f8f8f8;
+}
+.article2{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.article2 h3,.article3 h3{
+	font: 600 22px/1 "微软雅黑";
+}
+.a2-left{
+	width: 800px;
+}
+.a2-left > a{
+	float: left;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	padding: 0 20px 0;
+	background: #fff;
+	border: 1px solid gray;
+}
+.a2-nr{
+	width: 630px;
+	height:500px;
+	padding-left: 35px;
+	background: #fff;
+}
+.a2-nr p{
+	font: 400 16px/32px "微软雅黑";
+}
+.a2-nr a{
+	font: 400 14px/28px "微软雅黑";
+}
+.a2-right{
+	width: 470px;
+}
+.a2-right ul li{
+	height: 40px;
+	color: white;
+	font: 400 16px/40px "微软雅黑";
+	text-indent: 18px;
+	margin-top: 8px;
+	padding-right:18px ;
+	background: #56bdea;
+}
+.a2-right ul li span{
+	font-size: 22px;
+	float: right;
+}
+.a2-ul-erji{
+	width: 444px;
+	height: 140px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.cnt{
+	display: none;
+}
+.a2-ul-erji p{
+	width:250px ;
+	font-size: 14px;
+	margin-left:18px ;
+}
+#aricle3{
+	height: 360px;
+	background: #66c3ec;
+}
+.article3{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top:30px ;
+}
+.article3 h3{
+	text-align: center;
+}
+.article3 p{
+	color: white;
+	text-align: center;
+	font-family: "微软雅黑";
+}
+.article3 ul{
+    height: 200px;
+    margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.article3 ul li{
+	width: 500px;
+	color: white;
+	background: url(../img/10.png) no-repeat;
+	padding-left:85px ;
+}
+#aricle4{
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+#aricle4 p{
+	font: 400 14px/30px "微软雅黑";
+	margin-left: 20px;
+}
+#aricle5{
+	height: 250px;
+	background: #7370b5;
+}
+.aricle5{
+	width: 1200px;
+	margin: 0 auto;
+}
+.aricle5 ul{
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.aricle5 ul li{
+	padding-top:50px;
+	background: url(../img/12.png) no-repeat center 0;
+}
+.aricle5 ul b{
+	color: #55c0ee;
+	font-size: 80px;
+}
+.aricle5 ul p{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+#footer{
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+#footer h5{
+	font: 700 20px/0 "微软雅黑";
+}
+.f-div1{
+	width: 380px;
+}
+.f-div1 p{
+	font: 400 14px/22px "微软雅黑";
+}
+.f-div2{
+	width:160px;
+}
+.f-div2 a{
+	display: block;
+	height: 40px;
+	font: 400 14px/20px "微软雅黑";
+}
+.f-div3{
+	width: 250px;
+}
+.f-div3 p{
+	font: 400 14px/28px "微软雅黑";
+}
+#banquan{
+	height: 40px;
+	background: #323232;
+}
+#banquan p{
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+.no{
+	display: block;
+}

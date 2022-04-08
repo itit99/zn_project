@@ -1,0 +1,105 @@
+html,body
+{
+	margin:0;
+	padding:0;
+	font:400 18px/48px '微软雅黑'
+}
+ul,li,menu,em,h3,i,a
+{
+	margin:0;
+	padding:0;
+	font-style:normal;
+	list-style:none;
+	text-decoration:none
+}
+h3
+{
+	color:#fff;
+	width:300px;
+	text-align:center;
+	background:#44495a;
+	
+}
+menu
+{
+	margin:0;
+	width:300px;
+	background:#f00
+}
+ul
+{
+	padding:2px 6px;
+	background:#363a45
+}
+ul li
+{
+	margin:6px 0
+}
+ul li span
+{
+	color:#fff;
+	cursor:pointer;
+	position:relative;
+	display:block;
+	line-height:48px;
+	font-size:16px;
+	text-align:center;
+	background:#3889d4;
+	transition:all .6s ease;
+	background:#3889d4
+	/* 兼容各种浏览器*/
+	/* 
+	-webkit-transition: 兼容谷歌 
+	-moz-transition: 兼容火狐
+	-ms-transition:兼容IE
+	-o-transition:兼容Opera
+	*/
+}
+ul li span.on,
+ul li span:hover
+{
+	background:#3d8332
+}
+ul li span i
+{
+	top:50%;
+	right:20px;
+	display:block;
+	width:0;
+	height:0;
+	position:absolute;
+	border-top:6px solid transparent;
+	border-right:6px solid transparent;
+	border-bottom:6px solid transparent;
+	border-left:6px solid #fff;
+	transition:transform .6s ease;
+	transform-origin:4px 3px;
+	transform:translate(0,-50%);
+}
+ul li span i.on,
+ul li span i:hover
+{
+	transform:rotate(90deg)
+}
+ul li label
+{	
+	height:0;
+	display:block;
+	overflow:hidden;
+	background:#282c3a;
+	transition:all 1s ease
+}
+ul li label a
+{
+	color:#fff;
+	font-size:16px;
+	line-height:36px;
+	display:block;
+	text-align:center;
+	transition:all .6s ease
+}
+ul li label a.on,
+ul li label a:hover
+{
+	background:#1acbfc
+}

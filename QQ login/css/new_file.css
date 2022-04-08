@@ -1,0 +1,129 @@
+@font-face {
+		font-family: 'zz';
+		src: url(../img/font/font.eot), 
+		url(../img/font/font.woff ) format('woff'), 
+		url(../img/font/font.ttf) format('truetype'), 
+		url(../img/font/font.svg) format('svg');
+}
+ul,li,p,h1{
+	margin: 0;
+	list-style: none;
+}
+#wrap{
+	display: none;
+	left: 50%;
+	position: absolute;
+	transform: translateX(-50%);
+	/*visibility: hidden;*/
+}
+#box{
+	position: relative;
+	width: 425px;
+	box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+	
+	
+}
+#head{
+	position: relative;
+	height: 125px;
+	background: linear-gradient(90deg,#403eff,#1da1ff,#f4d9e5,#b464e5);
+}
+#body{
+	height: 175px;
+}
+#bt{
+	margin-left: 10px;
+}
+#qq,#qt,#gj{
+	color: white;
+	font: 400 18px/28px 'zz' ;
+}
+#qt{
+	font-size: 30px;
+}
+#gj{
+	top: 5px;
+	right: 10px;
+	position: absolute;
+}
+#gj span:nth-child(1):hover,
+#gj span:nth-child(2):hover,
+#gj span:nth-child(3):hover{
+	background: rgba(255,255,255,.5);
+}
+#form{
+	display: flex;
+	margin-top:30px;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#form ul li{
+	width: 235px;
+	border-bottom: 1px solid #ccc;
+}
+#form ul li.c span{
+	color: gray;
+	font: 400 18px/24px 'zz' ;
+}
+#text,#psd{
+	width: 180px;
+	height: 25px;
+	color: #000;
+	border: 0;
+	outline: none;
+	text-indent: 8px;
+	font: 400 18px/36px "微软雅黑";
+}
+#psd{
+	margin-top:10px;
+	font-size: 22px;
+}
+#dl{
+	width: 235px;
+	height: 35px;
+	color: white;
+	border: 0;
+	outline: none;
+	border-radius: 5px;
+	background: #09C0FE;
+}
+#gn{
+	width: 235px;
+	display: flex;
+	padding: 6px 0;
+	justify-content: space-between;
+}
+#gn span,#gn a{
+	color: gray;
+	font: 400 12px/24px "微软雅黑";
+}
+#gn a{
+	text-decoration: none;
+}
+#zc,#ewm,#tx{
+	position: absolute;
+}
+#zc{
+	left: 12px;
+	bottom: 5px;
+	color: gray;
+	font: 400 12px/24px "微软雅黑";
+	text-decoration: none;
+}
+#ewm{
+	right: 12px;
+	bottom: 12px;
+	/*width: 22px;
+	height: 22px;*/
+}
+#tx{
+	top: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+}
+.tx{
+	width: 65px;
+	height: 65px;
+	border-radius:50% ;
+}
